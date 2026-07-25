@@ -1,0 +1,6 @@
+{
+  "name": "Best Cleaning - Professional Home Cleaning Services",
+  "description": "Premium modern website for Best Cleaning, offering professional home, office, and commercial cleaning services.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

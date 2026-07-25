@@ -1,0 +1,512 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pricing Plans - Excellence Deep Cleaning Services | Transparent Rates & Add-ons</title>
+  <meta name="description" content="Affordable, transparent pricing packages for residential and commercial cleaning. Check our rates and add-on services with zero hidden fees.">
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
+  
+  <link rel="stylesheet" href="/css/style.css">
+  <link rel="stylesheet" href="/css/responsive.css">
+</head>
+<body>
+
+  <!-- Top Contact Bar -->
+  <div class="top-contact-bar">
+    <div class="container top-contact-wrapper">
+      <div class="top-contact-info">
+        <a href="tel:+919769234977" class="top-contact-item"><i class="fa-solid fa-phone"></i> +91 97692 34977</a>
+        <a href="mailto:excellenceservices90@gmail.com" class="top-contact-item"><i class="fa-solid fa-envelope"></i> excellenceservices90@gmail.com</a>
+        <span class="top-contact-item"><i class="fa-solid fa-clock"></i> Mon - Sat: 8:00 AM - 8:00 PM</span>
+      </div>
+      <div class="top-social-links">
+        <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+        <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
+        <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Header -->
+  <header class="main-header">
+    <div class="container nav-container">
+      <a href="index.html" class="logo" aria-label="Excellence Deep Cleaning Services">
+        <img src="src/assets/images/logo.png" class="logo-img">
+      </a>
+
+      <nav class="desktop-menu">
+        <ul class="nav-menu">
+          <li><a href="index.html" class="nav-link">Home</a></li>
+          <li><a href="about.html" class="nav-link">About Us</a></li>
+          <li><a href="services.html" class="nav-link">Services</a></li>
+          <li><a href="pricing.html" class="nav-link active">Pricing</a></li>
+          <li><a href="contact.html" class="nav-link">Contact</a></li>
+        </ul>
+      </nav>
+
+      <div class="header-actions">
+        <button class="search-trigger-btn" aria-label="Search services" title="Search services"><i class="fa-solid fa-magnifying-glass"></i></button>
+        <button class="btn btn-primary btn-sm book-now-trigger header-book-btn" data-service="Home Cleaning"><i class="fa-solid fa-calendar-check"></i> <span class="header-btn-text">Book Now</span></button>
+        <button class="mobile-toggle-btn" aria-label="Toggle Navigation" title="Open Menu"><i class="fa-solid fa-bars-staggered"></i></button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Mobile Navigation Drawer Overlay -->
+  <div class="mobile-drawer-overlay"></div>
+  <div class="mobile-drawer">
+    <div class="mobile-drawer-header">
+      <a href="index.html" class="logo" aria-label="Excellence Deep Cleaning Services">
+        <img src="/assets/logo.jpg" alt="Excellence Deep Cleaning Services Logo" class="logo-img">
+      </a>
+      <button class="mobile-drawer-close" aria-label="Close menu"><i class="fa-solid fa-xmark"></i></button>
+    </div>
+    <div class="mobile-nav-links">
+      <a href="index.html" class="mobile-nav-link">Home <i class="fa-solid fa-chevron-right"></i></a>
+      <a href="about.html" class="mobile-nav-link">About Us <i class="fa-solid fa-chevron-right"></i></a>
+      <a href="services.html" class="mobile-nav-link">Services <i class="fa-solid fa-chevron-right"></i></a>
+      <a href="pricing.html" class="mobile-nav-link active">Pricing <i class="fa-solid fa-chevron-right"></i></a>
+      <a href="contact.html" class="mobile-nav-link">Contact <i class="fa-solid fa-chevron-right"></i></a>
+    </div>
+
+    <div class="mobile-drawer-contacts">
+      <div class="mobile-contact-title">Quick Contact</div>
+      <a href="tel:+919769234977" class="mobile-contact-item"><i class="fa-solid fa-phone"></i> +91 97692 34977</a>
+      <a href="mailto:excellenceservices90@gmail.com" class="mobile-contact-item"><i class="fa-solid fa-envelope"></i> excellenceservices90@gmail.com</a>
+      <div class="mobile-contact-item"><i class="fa-solid fa-clock"></i> Mon - Sat: 8:00 AM - 8:00 PM</div>
+      <div class="mobile-social-links">
+        <a href="#" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+        <a href="#" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+        <a href="#" aria-label="Twitter"><i class="fa-brands fa-x-twitter"></i></a>
+        <a href="#" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+        <a href="#" aria-label="YouTube"><i class="fa-brands fa-youtube"></i></a>
+      </div>
+    </div>
+
+    <div class="mobile-drawer-footer">
+      <button class="btn btn-primary w-full book-now-trigger" style="width: 100%;"><i class="fa-solid fa-calendar-check"></i> Book Service Now</button>
+    </div>
+  </div>
+
+  <!-- Search Modal -->
+  <div class="search-modal">
+    <div class="search-box-card">
+      <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 16px;">
+        <h3 style="color: var(--secondary); font-weight: 700;">Find Your Cleaning Service</h3>
+        <button onclick="document.querySelector('.search-modal').classList.remove('active')" style="font-size: 1.2rem; color: var(--text-muted);"><i class="fa-solid fa-xmark"></i></button>
+      </div>
+      <div class="search-input-wrap">
+        <i class="fa-solid fa-magnifying-glass"></i>
+        <input type="text" class="search-input" placeholder="Search e.g. Sofa, Deep Clean, Kitchen, Office...">
+      </div>
+      <div class="search-results-list"></div>
+    </div>
+  </div>
+
+  <!-- Hero Header -->
+  <section class="inner-hero-section">
+    <div class="container">
+      <h1>Transparent Pricing Plans</h1>
+      <div class="breadcrumb">
+        <a href="index.html">Home</a>
+        <i class="fa-solid fa-angle-right"></i>
+        <span>Pricing</span>
+      </div>
+    </div>
+  </section>
+
+  <main class="section-padding">
+    <div class="container" style="max-width: 960px;">
+      
+      <div class="section-title-wrap" data-aos="fade-up">
+        <div class="badge"><i class="fa-solid fa-tag"></i> Clear & Transparent Pricing</div>
+        <h2 class="section-title">Our Deep Cleaning Packages & Rates</h2>
+        <p class="section-desc">Upfront, honest rates for residential flat deep cleaning, specialized upholstery shampooing, wall mopping & more.</p>
+      </div>
+
+      <!-- TABLE 1: FLAT DEEP CLEANING RATES -->
+      <div class="price-table-card" data-aos="fade-up">
+        <div class="price-table-header">
+          <i class="fa-solid fa-house-chimney"></i> Flat Deep Cleaning Rates
+        </div>
+        <div class="price-table-wrap">
+          <table class="price-table">
+            <thead>
+              <tr>
+                <th class="col-idx">#</th>
+                <th>Service Type & Apartment Configuration</th>
+                <th style="text-align: right;">Rate (₹)</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td class="col-idx">1</td>
+                <td class="col-title">1 BHK Unfurnished Flat Deep Cleaning</td>
+                <td class="col-price">₹ 4,500</td>
+              </tr>
+              <tr>
+                <td class="col-idx">2</td>
+                <td class="col-title">2 BHK Unfurnished Flat Deep Cleaning</td>
+                <td class="col-price">₹ 5,500</td>
+              </tr>
+              <tr>
+                <td class="col-idx">3</td>
+                <td class="col-title">3 BHK Unfurnished Flat Deep Cleaning</td>
+                <td class="col-price">₹ 6,500</td>
+              </tr>
+              <tr>
+                <td class="col-idx">4</td>
+                <td class="col-title">1 BHK Furnished Flat Deep Cleaning</td>
+                <td class="col-price">₹ 5,500</td>
+              </tr>
+              <tr>
+                <td class="col-idx">5</td>
+                <td class="col-title">2 BHK Furnished Flat Deep Cleaning</td>
+                <td class="col-price">₹ 6,500</td>
+              </tr>
+              <tr>
+                <td class="col-idx">6</td>
+                <td class="col-title">3 BHK Furnished Flat Deep Cleaning</td>
+                <td class="col-price">₹ 7,500</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+
+      <!-- TABLE 2: ADDITIONAL SERVICES -->
+      <div class="price-table-card" data-aos="fade-up">
+        <div class="price-table-header">
+          <i class="fa-solid fa-couch"></i> Additional Services (Upholstery & Steaming)
+        </div>
+        <div class="price-table-wrap">
+          <table class="price-table">
+            <thead>
+              <tr>
+                <th class="col-idx">#</th>
+                <th>Additional Service Name</th>
+                <th style="text-align: right;">Rate (₹)</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td class="col-idx">1</td>
+                <td class="col-title">Sofa shampoo wash</td>
+                <td class="col-price">₹ 250 <span style="font-size:0.85rem; font-weight:500; color:var(--text-muted);">/ seat</span></td>
+              </tr>
+              <tr>
+                <td class="col-idx">2</td>
+                <td class="col-title">Single bed mattress shampoo wash</td>
+                <td class="col-price">₹ 750 <span style="font-size:0.85rem; font-weight:500; color:var(--text-muted);">/ mattress</span></td>
+              </tr>
+              <tr>
+                <td class="col-idx">3</td>
+                <td class="col-title">Double bed Mattress shampoo wash</td>
+                <td class="col-price">₹ 1,500 <span style="font-size:0.85rem; font-weight:500; color:var(--text-muted);">/ mattress</span></td>
+              </tr>
+              <tr>
+                <td class="col-idx">4</td>
+                <td class="col-title">Sofa steaming & shampoo wash</td>
+                <td class="col-price">₹ 400 <span style="font-size:0.85rem; font-weight:500; color:var(--text-muted);">/ seat</span></td>
+              </tr>
+              <tr>
+                <td class="col-idx">5</td>
+                <td class="col-title">Single bed mattress shampoo wash & steaming</td>
+                <td class="col-price">₹ 1,100 <span style="font-size:0.85rem; font-weight:500; color:var(--text-muted);">/ mattress</span></td>
+              </tr>
+              <tr>
+                <td class="col-idx">6</td>
+                <td class="col-title">Double bed mattress shampoo wash & steaming</td>
+                <td class="col-price">₹ 1,800 <span style="font-size:0.85rem; font-weight:500; color:var(--text-muted);">/ mattress</span></td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+
+      <!-- TABLE 3: WET WALL CLEANING -->
+      <div class="price-table-card" data-aos="fade-up">
+        <div class="price-table-header">
+          <i class="fa-solid fa-paint-roller"></i> Wet Wall Cleaning <span style="font-size: 0.85rem; opacity: 0.9; font-weight:400; margin-left: 6px;">(Possible only on washable paints)</span>
+        </div>
+        <div class="price-table-wrap">
+          <table class="price-table">
+            <thead>
+              <tr>
+                <th class="col-idx">#</th>
+                <th>Apartment Size</th>
+                <th style="text-align: right;">Rate (₹)</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td class="col-idx">1</td>
+                <td class="col-title">1 BHK Flat</td>
+                <td class="col-price">₹ 1,500</td>
+              </tr>
+              <tr>
+                <td class="col-idx">2</td>
+                <td class="col-title">2 BHK Flat</td>
+                <td class="col-price">₹ 2,000</td>
+              </tr>
+              <tr>
+                <td class="col-idx">3</td>
+                <td class="col-title">3 BHK Flat</td>
+                <td class="col-price">₹ 2,500</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+
+      <!-- TABLE 4: SCOPE / WHAT'S INCLUDED IN OUR DEEP CLEANING SERVICE -->
+      <div class="price-table-card" data-aos="fade-up">
+        <div class="price-table-header">
+          <i class="fa-solid fa-list-check"></i> More About Our Deep Cleaning Scope
+        </div>
+        <div class="price-table-wrap">
+          <table class="price-table">
+            <thead>
+              <tr>
+                <th class="col-idx">#</th>
+                <th>Included Cleaning Tasks & Coverage Checklist</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td class="col-idx">1</td>
+                <td class="col-title">Floor cleaning by moving the furniture (dusting / scrubbing / washing)</td>
+              </tr>
+              <tr>
+                <td class="col-idx">2</td>
+                <td class="col-title">Cleaning of doors, windows, window tracks, grills etc. (dusting / vacuum-cleaning / wet-mopping)</td>
+              </tr>
+              <tr>
+                <td class="col-idx">3</td>
+                <td class="col-title">Cleaning of fans, switches, lighting areas (dusting & dry/wet mopping)</td>
+              </tr>
+              <tr>
+                <td class="col-idx">4</td>
+                <td class="col-title">Cleaning of all the furniture (dusting / vacuum-cleaning / wet-mopping)</td>
+              </tr>
+              <tr>
+                <td class="col-idx">5</td>
+                <td class="col-title">Cleaning of refrigerator (internal & external)</td>
+              </tr>
+              <tr>
+                <td class="col-idx">6</td>
+                <td class="col-title">Cleaning of kitchen cabinets by removing the utensils (dusting / vacuum-cleaning / scrubbing / wet-cleaning)</td>
+              </tr>
+              <tr>
+                <td class="col-idx">7</td>
+                <td class="col-title">Cleaning of Washroom (including mirrors, partitions, taps, pots, sinks etc.)</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+
+      <!-- Call To Action Box -->
+      <div style="background: linear-gradient(135deg, #00809D 0%, #0369A1 100%); color: #FFF; border-radius: 16px; padding: 36px 28px; text-align: center; margin-top: 48px;" data-aos="fade-up">
+        <h3 style="font-size: 1.8rem; font-weight: 800; margin-bottom: 12px; color: #FFF;">Ready to Book Your Cleaning Service?</h3>
+        <p style="font-size: 1.05rem; max-width: 650px; margin: 0 auto 24px; opacity: 0.92;">Get 100% deposit-safe and hygienic deep cleaning delivered by trained professionals across Mumbai.</p>
+        <div style="display: flex; gap: 16px; justify-content: center; flex-wrap: wrap;">
+          <button class="btn btn-accent btn-lg book-now-trigger" data-service="Home Deep Cleaning">Book Service Now <i class="fa-solid fa-calendar-check"></i></button>
+          <a href="tel:+919769234977" class="btn btn-outline-white btn-lg"><i class="fa-solid fa-phone"></i> Call +91 97692 34977</a>
+        </div>
+      </div>
+
+    </div>
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-col">
+          <a href="index.html" class="logo" aria-label="Excellence Deep Cleaning Services">
+            <img src="src/assets/images/logo.png" class="logo-img">
+          </a>
+          <p class="footer-about" style="margin-top: 12px; margin-bottom: 8px;">
+            <i class="fa-solid fa-location-dot" style="color: var(--accent);"></i> Panchshil Lane, D 56, Akurli Rd, Kandivali, Lokhandwala Twp, Kandivali East, Mumbai, Maharashtra 400101
+          </p>
+          <p class="footer-about" style="margin-bottom: 8px;">
+            <i class="fa-solid fa-phone" style="color: var(--accent);"></i> <a href="tel:+919769234977" style="color: inherit;">+91 97692 34977</a>
+          </p>
+          <p class="footer-about" style="margin-bottom: 16px;">
+            <i class="fa-solid fa-envelope" style="color: var(--accent);"></i> <a href="mailto:excellenceservices90@gmail.com" style="color: inherit;">excellenceservices90@gmail.com</a>
+          </p>
+          <div class="top-social-links">
+            <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+            <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
+            <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+          </div>
+        </div>
+
+        <div class="footer-col">
+          <h4 class="footer-heading">Quick Links</h4>
+          <div class="footer-links">
+            <a href="index.html"><i class="fa-solid fa-chevron-right"></i> Home</a>
+            <a href="about.html"><i class="fa-solid fa-chevron-right"></i> About Us</a>
+            <a href="services.html"><i class="fa-solid fa-chevron-right"></i> Our Services</a>
+            <a href="pricing.html"><i class="fa-solid fa-chevron-right"></i> Pricing Plans</a>
+            <a href="contact.html"><i class="fa-solid fa-chevron-right"></i> Contact Us</a>
+          </div>
+        </div>
+
+        <div class="footer-col">
+          <h4 class="footer-heading">Our Services</h4>
+          <div class="footer-links">
+            <a href="services.html#home"><i class="fa-solid fa-chevron-right"></i> Home Deep Cleaning</a>
+            <a href="services.html#office"><i class="fa-solid fa-chevron-right"></i> Office Deep Cleaning</a>
+            <a href="services.html#commercial"><i class="fa-solid fa-chevron-right"></i> Commercial Deep Cleaning</a>
+            <a href="services.html#carpet"><i class="fa-solid fa-chevron-right"></i> Carpet Shampoo Wash</a>
+          </div>
+        </div>
+
+        <div class="footer-col">
+          <h4 class="footer-heading">Newsletter & Location</h4>
+          <p style="font-size: 0.875rem; margin-bottom: 12px;">Subscribe for exclusive discounts & cleaning tips.</p>
+          <form class="newsletter-form" onsubmit="event.preventDefault(); alert('Subscribed successfully!');">
+            <input type="email" class="newsletter-input" placeholder="Your Email Address..." required>
+            <button type="submit" class="btn btn-primary btn-sm">Subscribe Now</button>
+          </form>
+          <div class="map-card-embed">
+            <iframe src="https://maps.google.com/maps?q=Panchshil%20Lane,%20D%2056,%20Akurli%20Rd,%20Kandivali,%20Lokhandwala%20Twp,%20Kandivali%20East,%20Mumbai,%20Maharashtra%20400101&t=&z=15&ie=UTF8&iwloc=&output=embed" loading="lazy"></iframe>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <div>&copy; 2026 Excellence Deep Cleaning Services. All rights reserved. Designed for Excellence.</div>
+        <div style="display: flex; gap: 20px;">
+          <a href="#" style="color: #94A3B8;">Privacy Policy</a>
+          <a href="#" style="color: #94A3B8;">Terms of Service</a>
+          <a href="#" style="color: #94A3B8;">Sitemap</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- FLOATING BUTTONS -->
+  <div class="floating-actions-container">
+    <a href="https://wa.me/919769234977" target="_blank" class="float-btn float-whatsapp" data-tooltip="WhatsApp Chat">
+      <i class="fa-brands fa-whatsapp"></i>
+    </a>
+    <a href="tel:+919769234977" class="float-btn float-phone" data-tooltip="Call Us Directly">
+      <i class="fa-solid fa-phone"></i>
+    </a>
+    <button class="float-btn float-back-top" data-tooltip="Back to Top">
+      <i class="fa-solid fa-arrow-up"></i>
+    </button>
+  </div>
+
+  <!-- BOOKING WIZARD MODAL -->
+  <div class="booking-modal">
+    <div class="booking-card">
+      <div class="booking-close"><i class="fa-solid fa-xmark"></i></div>
+      
+      <div class="wizard-steps-indicator">
+        <div class="wizard-step-node active">1</div>
+        <div class="wizard-step-node">2</div>
+        <div class="wizard-step-node">3</div>
+        <div class="wizard-step-node">4</div>
+      </div>
+
+      <form id="booking-wizard-form" onsubmit="event.preventDefault();">
+        <!-- Step 1: Service Selection -->
+        <div class="wizard-form-step active">
+          <h3 style="color: var(--secondary); font-weight: 700; margin-bottom: 16px;">Step 1: Choose Your Service</h3>
+          <div class="form-group">
+            <label class="form-label">Select Service Type</label>
+            <select class="form-control" id="booking-service-select" required>
+              <option value="Home Deep Cleaning">Home Deep Cleaning</option>
+              <option value="Office Deep Cleaning">Office Deep Cleaning</option>
+              <option value="Commercial Deep Cleaning">Commercial Deep Cleaning</option>
+              <option value="Carpet Shampoo Wash">Carpet Shampoo Wash</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label class="form-label">Property Square Footage (Approx)</label>
+            <input type="number" class="form-control" id="booking-sqft" placeholder="e.g. 1500 sq ft" value="1500" required>
+          </div>
+        </div>
+
+        <!-- Step 2: Date & Time -->
+        <div class="wizard-form-step">
+          <h3 style="color: var(--secondary); font-weight: 700; margin-bottom: 16px;">Step 2: Date & Schedule</h3>
+          <div class="form-row">
+            <div class="form-group">
+              <label class="form-label">Preferred Date</label>
+              <input type="date" class="form-control" id="booking-date" required>
+            </div>
+            <div class="form-group">
+              <label class="form-label">Time Slot</label>
+              <select class="form-control" id="booking-time" required>
+                <option value="Morning Slot (8:00 AM - 12:00 PM)">Morning Slot (8:00 AM - 12:00 PM)</option>
+                <option value="Afternoon Slot (12:00 PM - 4:00 PM)">Afternoon Slot (12:00 PM - 4:00 PM)</option>
+                <option value="Evening Slot (4:00 PM - 8:00 PM)">Evening Slot (4:00 PM - 8:00 PM)</option>
+              </select>
+            </div>
+          </div>
+        </div>
+
+        <!-- Step 3: Contact Details -->
+        <div class="wizard-form-step">
+          <h3 style="color: var(--secondary); font-weight: 700; margin-bottom: 16px;">Step 3: Your Information</h3>
+          <div class="form-group">
+            <label class="form-label">Full Name *</label>
+            <input type="text" class="form-control" id="booking-name" placeholder="Enter full name" required>
+          </div>
+          <div class="form-row">
+            <div class="form-group">
+              <label class="form-label">Phone Number *</label>
+              <input type="tel" class="form-control" id="booking-phone" placeholder="+91 98765 43210" required>
+            </div>
+            <div class="form-group">
+              <label class="form-label">Email Address *</label>
+              <input type="email" class="form-control" id="booking-email" placeholder="john@example.com" required>
+            </div>
+          </div>
+          <div class="form-group">
+            <label class="form-label">Service Street Address *</label>
+            <input type="text" class="form-control" id="booking-address" placeholder="Flat No, Building, Street, Kandivali East, Mumbai" required>
+          </div>
+          <div class="form-group">
+            <label class="form-label">Special Requirements / Notes (Optional)</label>
+            <textarea class="form-control" id="booking-notes" rows="2" placeholder="e.g. Need balcony deep scrub, key with security, etc."></textarea>
+          </div>
+        </div>
+
+        <!-- Step 4: Summary & Confirm -->
+        <div class="wizard-form-step">
+          <h3 style="color: var(--secondary); font-weight: 700; margin-bottom: 16px;">Step 4: Confirm & Send via WhatsApp</h3>
+          <div id="booking-summary-box" style="margin-bottom: 16px;"></div>
+          <div style="background: #DCFCE7; color: #166534; padding: 14px 18px; border-radius: var(--radius-md); font-size: 0.9rem; margin-bottom: 20px; display: flex; align-items: center; gap: 12px; border: 1px solid #BBF7D0;">
+            <i class="fa-brands fa-whatsapp" style="font-size: 1.6rem; color: #25D366; flex-shrink: 0;"></i>
+            <div>
+              <strong>Automatic WhatsApp Booking:</strong> Clicking confirm will instantly open WhatsApp on your phone or PC with all your booking details pre-filled. Simply tap send!
+            </div>
+          </div>
+        </div>
+
+        <div class="wizard-nav-btns">
+          <button type="button" class="btn btn-outline wizard-prev-btn" style="display: none;"><i class="fa-solid fa-chevron-left"></i> Back</button>
+          <button type="button" class="btn btn-primary wizard-next-btn">Next Step <i class="fa-solid fa-chevron-right"></i></button>
+        </div>
+      </form>
+    </div>
+  </div>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+  <script src="/js/main.js" defer></script>
+</body>
+</html>
